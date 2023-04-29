@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+.sec1{
+    background-color: #032154;
+    padding: 14px 0;
+    color:#fff;
+}
+
+.sec3 {
+    background-color: #032154;
+    color:#fff;
+}
+.sec1 .container , .sec2 .container, 
+.sec3 .container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 190px;
+    padding-right: 190px;
+    align-items: center;
+}
+
+.fa {
+    color: #fff;
+}
+.sec1 .container .social_icons {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.social_icons li {
+    margin-right: 16px;
+}
+
+.sec2 {
+    background-color: #fff;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.sec2 .container h1 {
+    color: #f2db18;
+    font-size:36px;
+}
+
+.sec3.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec3 .container .social_icon1 {
+    display: flex;
+    list-style-type: none;
+}
+
+.sec3 .container .social_icon1  li {
+    margin-right: 10px;
+    padding: 24px 22px;
+}
+.active {
+    background-color: #f2db18;
+}
+.sec3 .container .social_icon1 li:hover {
+    background-color: #f2db18;
+    transition: ease-in-out .2s;
+}
+
+.sec3 .container .social_icon1 li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+}
+
+.sec3 .container .sign {
+    display: flex;
+    list-style-type: none;
+}
+
+.sec3 .container .sign li {
+    margin-right: 10px;
+    padding: 12px 24px;
+}
+
+.sign-up .sign li:nth-child(2) {
+    background-color: #f2db18;
+    border-radius: 12px;
+    margin-left: 60px;
+}
+
+.sign-up .sign li:nth-child(2) a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.topic #img{
+    position: absolute;
+    z-index:10;
+    width: 300px;
+    height: 400px;
+    margin-left: 900px;
+    width: 500px;
+    height: 700px;
+}
+.topic  img{
+    position: absolute;
+    z-index: 0;
+    height: 94%;
+    width: 100%;
+}
+.text {
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  padding-top: 200px;
+  padding-left: 200px;
+}
+
+.text h1 {
+    font-size: 60px;
+}
+
+.text h3 {
+    color: #f2db18;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 20px 0;
+}
+
+.text p {
+    margin-bottom: 30px;
+}
+.text a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 30px;
+}
